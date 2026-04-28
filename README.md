@@ -49,6 +49,9 @@ The system automatically suggests a task priority based on keywords in the title
 ---
 
 ## 📌 API Endpoints
+  POST /tasks
+  GET /tasks
+  PATCH /tasks/{id}
 
 ### 1. Create Task
 
@@ -69,10 +72,10 @@ Response:
   }
 }
 
-###2. Get All Tasks
+### 2. Get All Tasks
 GET /tasks
 
-###3. Update Task Status
+### 3. Update Task Status
 PATCH /tasks/{id}
 
 Request Body:
@@ -82,11 +85,11 @@ Request Body:
 }
 
 ## How to Run
-###1. Clone the repository
-###2. Open in Eclipse / IntelliJ
-###3. Run Spring Boot application
+### 1. Clone the repository
+### 2. Open in Eclipse / IntelliJ
+### 3. Run Spring Boot application
     SmartTaskApiApplication.java
-###4. API will run on:
+### 4. API will run on:
      http://localhost:8080
 
 
