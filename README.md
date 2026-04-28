@@ -49,9 +49,9 @@ The system automatically suggests a task priority based on keywords in the title
 ---
 
 ## 📌 API Endpoints
-  POST /tasks
-  GET /tasks
-  PATCH /tasks/{id}
+      POST /tasks
+      GET /tasks
+      PATCH /tasks/{id}
 
 ### 1. Create Task
 
